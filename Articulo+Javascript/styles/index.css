@@ -1,0 +1,39 @@
+body {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Sohne, sans-serif;
+        }
+
+        .container {
+            max-width: 750px; 
+            padding: 20px;
+            text-align: left;
+            line-height: 1.5;
+            color: rgb(42, 41, 41);
+        }
+
+        .container p:nth-of-type(1){
+            color:darkgray;
+        }
+
+        .container p:nth-of-type(2),
+        .container p:nth-of-type(5){
+            color:darkgrey;
+            text-align: center;
+        }
+
+        p{
+            font-size: larger;
+        }
+
+        h1{
+            font-size: 45px;
+            text-align: center;
+        }
+
+        /* Cambia el color de los enlaces del índice a negro */
+        .container a {
+            color: black;
+        }
